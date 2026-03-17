@@ -1,0 +1,11 @@
+{
+  "name": "FKF Decision Simulator",
+  "short_name": "FKF Sim",
+  "description": "Train correct decisions under press when building from the back.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1628",
+  "theme_color": "#0a1628",
+  "orientation": "portrait",
+  "icons": []
+}
