@@ -1,0 +1,8 @@
+[build]
+  command = "npx shadow-cljs release app"
+  publish = "public"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

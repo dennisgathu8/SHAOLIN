@@ -1,0 +1,12 @@
+node_modules/
+.shadow-cljs/
+out/
+target/
+public/js/
+report.html
+.nrepl-port
+.cpcache/
+*.log
+.lsp/
+.calva/
+.clj-kondo/
