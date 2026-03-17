@@ -12,7 +12,7 @@
     :description "The opponent is pressing high in a 4-3-3. Find the free player to break the first line."
     :difficulty :beginner
     :formation "4-3-3"
-    :time-limit-ms 5000
+    :time-limit-ms 15000
     :ball-carrier-id "gk1"
     :teammates [{:id "gk1"  :player-name "GK"  :player-role :gk :shirt-number 1  :position {:x 50 :y 90} :pressing? false}
                 {:id "cb1" :player-name "CB"  :player-role :cb :shirt-number 4  :position {:x 30 :y 75} :pressing? false}
@@ -33,7 +33,7 @@
     :description "You receive the ball back to goal. A midfielder is biting on your heels."
     :difficulty :intermediate
     :formation "4-2-3-1"
-    :time-limit-ms 4000
+    :time-limit-ms 15000
     :ball-carrier-id "cdm1"
     :teammates [{:id "cdm1" :player-name "CDM" :player-role :cdm :shirt-number 6 :position {:x 50 :y 55} :pressing? false}
                 {:id "cdm2" :player-name "CDM" :player-role :cdm :shirt-number 8 :position {:x 30 :y 55} :pressing? false}
@@ -54,7 +54,7 @@
     :description "Trapped on the sideline against a touchline press. Very little time."
     :difficulty :advanced
     :formation "4-4-2"
-    :time-limit-ms 3000
+    :time-limit-ms 20000
     :ball-carrier-id "fb1"
     :teammates [{:id "fb1" :player-name "FB" :player-role :fb :shirt-number 2 :position {:x 90 :y 60} :pressing? false}
                 {:id "cb1" :player-name "CB" :player-role :cb :shirt-number 4 :position {:x 65 :y 70} :pressing? false}
